@@ -1,0 +1,81 @@
+/* .nashville {
+    margin-top: -200px;
+    margin-bottom: 0;
+} */
+
+#header {
+    height: 100vh;
+    width: auto;
+    background-image: url('../images/nashville-lite.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.header-content {
+    padding: 100px 0;
+    color: rgb(0, 0, 0);
+    /* font-size: 1.5rem; */
+}
+.header-content hr {
+    width: 100px;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-weight: 300;
+}
+
+#about {
+    /* border: .5px solid lightgrey; */
+    height: 250px;
+    background-color: #eff1f1;
+}
+
+#tech {
+    /* border: .5px solid lightgrey; */
+}
+
+.tech-img-div {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#tech img {
+    width: 75px;
+    height: 75px;
+    margin: 50px;
+}
+
+#portfolio {
+    /* border: .5px solid lightgrey; */
+    background-color: #eff1f1;
+}
+
+.portfolio-card {
+   margin: 50px auto;
+}
+
+#contact {
+    /* border: .5px solid lightgrey; */
+}
+
+#contact hr {
+    width: 100px;
+}
+
+.btn {
+    width: 125px;
+    margin: 25px 0 50px 0;
+}
+
+.section-name {
+    
+}
+
+footer p {
+    font-size: .8rem;
+    margin: 10px auto;
+    color: #fff;
+}
