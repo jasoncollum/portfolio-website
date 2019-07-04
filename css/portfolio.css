@@ -1,8 +1,9 @@
-/* .nashville {
-    margin-top: -200px;
-    margin-bottom: 0;
-} */
 
+hr {
+    width: 50px;
+}
+
+/* Landing Page */
 #header {
     height: 100vh;
     width: auto;
@@ -17,15 +18,12 @@
     color: rgb(0, 0, 0);
     /* font-size: 1.5rem; */
 }
-.header-content hr {
-    width: 100px;
-    color: #fff;
-}
 
 .header-content h1 {
     font-weight: 300;
 }
 
+/* About Me */
 #about {
     /* border: .5px solid lightgrey; */
     padding: 25px 0;
@@ -44,6 +42,7 @@
     margin: 25px 10%;
 }
 
+/* Technology Used */
 #tech {
     /* border: .5px solid lightgrey; */
     padding: 25px 0;
@@ -61,6 +60,7 @@
     margin: 50px;
 }
 
+/* Portfolio */
 #portfolio {
     /* border: .5px solid lightgrey; */
     padding: 25px 0;
@@ -71,6 +71,7 @@
    margin: 50px auto;
 }
 
+/* Contact */
 #contact {
     /* border: .5px solid lightgrey; */
     padding: 25px 0;
@@ -83,10 +84,6 @@
 .btn {
     width: 125px;
     margin: 25px 0 50px 0;
-}
-
-.section-name {
-    
 }
 
 footer p {
