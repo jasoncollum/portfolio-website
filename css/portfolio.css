@@ -28,9 +28,20 @@
 
 #about {
     /* border: .5px solid lightgrey; */
-    height: 250px;
     padding: 25px 0;
     background-color: #eff1f1;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+.about-text {
+    text-align: left;
+    margin: 25px 10%;
 }
 
 #tech {
