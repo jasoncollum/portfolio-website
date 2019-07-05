@@ -18,54 +18,62 @@
 
 <body id="page-top">
     <!-- Navbar -->
-    <div>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">JASON COLLUM</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- <div class="container"> -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">JASON COLLUM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">TECHNOLOGIES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PORTFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <!-- <div id="header" class="container nashville">
-        <div class="container header-content text-center">
-            <h1>Jason Collum</h1>
-            <hr>
-            <p>software developer</p>
-            <button class="btn btn-outline-secondary">About</button>
+        <div class="collapse navbar-collapse links-contain" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto links">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TECHNOLOGIES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+            </ul>
         </div>
-    </div> -->
+    </nav>
+    <!-- </div> -->
+
     <div id="header">
         <div class="container-fluid">
             <div class="container header-content text-center">
                 <h1>Jason Collum</h1>
                 <!-- <hr> -->
-                <p>software developer</p>
+                <p>full stack software developer</p>
                 <!-- <button class="btn btn-outline-light">About</button> -->
             </div>
         </div>
     </div>
+
     <div id="about">
         <div class="container-fluid text-center section-name">
-            <h2>About</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/jason.jpg" alt="jason collum">
+                </div>
+                <h2>About Me</h2>
+                <hr>
+                <div class="about-text">
+                    <p>I'm a Nashville creative at heart with a background in music and audio
+                        engineering. I bring a collaborative spirit and enthusiasm to any effort to make something
+                        great.
+                        When I'm not
+                        coding you can most likely find me running a trail, driving a jeep, strumming a
+                        guitar, walking my dogs, or learning something new.
+                    </p>
+                </div>
+            </div>
         </div>
         <!-- <div class="container text-center">
             <button class="btn btn-outline-secondary">Technologies</button>
@@ -73,7 +81,7 @@
     </div>
     <div id="tech">
         <div class="container-fluid text-center section-name">
-            <h2>Technologies</h2>
+            <h3>Technologies Used</h3>
         </div>
         <div class="container tech-img-div">
             <img src="images/html-5.svg" alt="html 5 logo">
@@ -89,7 +97,7 @@
     </div>
     <div id="portfolio">
         <div class="container-fluid text-center section-name">
-            <h2>Portfolio</h2>
+            <h3>Projects</h3>
             <div class="container portfolio-div">
                 <div class="card mb-3 portfolio-card">
                     <img src="images/versions.png" class="card-img-top" alt="...">
@@ -107,7 +115,7 @@
     </div>
     <div id="contact">
         <div class="container-fluid text-center section-name">
-            <h2>Contact</h2>
+            <h3>Contact</h3>
             <hr>
             <p>Let's talk it out!</p>
             <div class="container email">
@@ -131,6 +139,7 @@
         </nav>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
