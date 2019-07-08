@@ -81,9 +81,20 @@ hr {
     width: 100px;
 }
 
-.btn {
-    width: 125px;
-    margin: 25px 0 50px 0;
+.socials {
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.socials i {
+    font-size: 2.5em;
+    color: slategrey;
+}
+
+.socials i:hover {
+    color: darkslategrey;
 }
 
 footer p {
