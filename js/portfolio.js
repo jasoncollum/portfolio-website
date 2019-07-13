@@ -2,3 +2,8 @@
 $('.navbar-nav>li>a').on('click', function () {
     $('.navbar-collapse').collapse('hide');
 });
+
+// Animate tech icons
+AOS.init({
+    duration: 1200,
+});
