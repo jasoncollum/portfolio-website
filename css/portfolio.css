@@ -68,7 +68,7 @@ hr {
 #tech img {
     width: 75px;
     height: 75px;
-    margin: 50px;
+    margin: 50px 50px 25px 50px;
 }
 
 /* Portfolio */
