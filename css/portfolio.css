@@ -66,9 +66,9 @@ hr {
     flex-wrap: wrap;
 }
 #tech img {
-    width: 75px;
-    height: 75px;
-    margin: 50px;
+    width: 55px;
+    height: 55px;
+    margin: 50px 50px 10px 50px;
 }
 
 /* Portfolio */
