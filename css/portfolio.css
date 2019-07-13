@@ -1,3 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+ul.links {
+    font-size: .9em;
+}
 
 hr {
     width: 50px;
@@ -26,7 +37,7 @@ hr {
 /* About Me */
 #about {
     /* border: .5px solid lightgrey; */
-    padding: 25px 0;
+    padding: 95px 0;
     background-color: #eff1f1;
 }
 
@@ -45,7 +56,7 @@ hr {
 /* Technology Used */
 #tech {
     /* border: .5px solid lightgrey; */
-    padding: 25px 0;
+    padding: 95px 0;
 }
 
 .tech-img-div {
@@ -63,7 +74,7 @@ hr {
 /* Portfolio */
 #portfolio {
     /* border: .5px solid lightgrey; */
-    padding: 25px 0;
+    padding: 95px 0;
     background-color: #eff1f1;
 }
 
@@ -74,7 +85,7 @@ hr {
 /* Contact */
 #contact {
     /* border: .5px solid lightgrey; */
-    padding: 25px 0;
+    padding: 95px 0;
 }
 
 #contact hr {
