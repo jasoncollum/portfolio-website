@@ -37,7 +37,7 @@ hr {
 /* About Me */
 #about {
     /* border: .5px solid lightgrey; */
-    padding: 95px 0;
+    padding: 40px 0;
     background-color: #eff1f1;
 }
 
@@ -50,17 +50,17 @@ hr {
 
 .about-text {
     text-align: left;
-    margin: 25px 15%;
+    margin: 25px 5%;
 }
 
 /* Technology Used */
 #tech {
     /* border: .5px solid lightgrey; */
-    padding: 95px 0;
+    padding: 40px 0;
 }
 
 .tech-img-div {
-    padding: 25px;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -68,24 +68,24 @@ hr {
 #tech img {
     width: 55px;
     height: 55px;
-    margin: 50px 50px 10px 50px;
+    margin: 25px 25px 5px 25px;
 }
 
 /* Portfolio */
 #portfolio {
     /* border: .5px solid lightgrey; */
-    padding: 95px 0;
+    padding: 40px 0;
     background-color: #eff1f1;
 }
 
 .portfolio-card {
-   margin: 50px auto;
+   margin: 40px 0;
 }
 
 /* Contact */
 #contact {
     /* border: .5px solid lightgrey; */
-    padding: 95px 0;
+    padding: 40px 0;
 }
 
 #contact hr {
@@ -112,4 +112,38 @@ footer p {
     font-size: .8rem;
     margin: 10px auto;
     color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+    #about {
+        padding: 95px 0;
+    }
+
+    .about-text {
+        margin: 25px 15%;
+    }
+
+    #tech {
+        padding: 95px 0;
+    }
+
+    .tech-image-div {
+        padding: 25px;
+    }
+
+    #tech img {
+        margin: 50px 50px 10px 50px;
+    }
+
+    #portfolio {
+        padding: 95px 0;
+    }
+
+    .portfolio-card {
+        margin: 50px auto;
+    }
+
+    #contact {
+        padding: 95px 0;
+    }
 }
