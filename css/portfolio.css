@@ -41,7 +41,7 @@ button:focus {
 /* About Me */
 #about {
     /* border: .5px solid lightgrey; */
-    padding: 40px 0;
+    padding: 70px 0;
     background-color: #eff1f1;
 }
 
@@ -60,7 +60,7 @@ button:focus {
 /* Technology Used */
 #tech {
     /* border: .5px solid lightgrey; */
-    padding: 40px 0;
+    padding: 70px 0;
 }
 
 .tech-img-div {
@@ -78,7 +78,7 @@ button:focus {
 /* Portfolio */
 #portfolio {
     /* border: .5px solid lightgrey; */
-    padding: 40px 0;
+    padding: 70px 0;
     background-color: #eff1f1;
 }
 
@@ -89,7 +89,7 @@ button:focus {
 /* Contact */
 #contact {
     /* border: .5px solid lightgrey; */
-    padding: 40px 0;
+    padding: 70px 0;
 }
 
 #contact hr {
